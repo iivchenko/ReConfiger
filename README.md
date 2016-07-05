@@ -1,0 +1,2 @@
+# ReConfiger
+This will be my first attempt to create a VS extensions ... I hope I will succeed in this beginning. So this will be an extension for VS that will provide ability to create and use templates to change a Solution Build Configuration. You know when you have dozens of projects in a Solution and some times you need to un-check  or check hundreds of projects because you don't need to build them. Mostly I would like to use it with AppAssure project where we relay have a solution with 100 projects. 
