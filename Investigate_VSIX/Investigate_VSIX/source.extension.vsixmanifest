@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="Investigate_VSIX.Ivan Ivchenko.191aa4f9-8ca5-461a-93a9-6d0729efc857" Version="1.0" Language="en-US" Publisher="Shogun" />
+    <DisplayName>Investigate_VSIX</DisplayName>
+    <Description xml:space="preserve">This is a description for our test VSIX</Description>
+    <MoreInfo>https://github.com/iivchenko/ReConfiger/wiki</MoreInfo>
+    <License>LICENSE.txt</License>
+    <GettingStartedGuide>LICENSE.txt</GettingStartedGuide>
+    <ReleaseNotes>LICENSE.txt</ReleaseNotes>
+    <Icon>Resources\VSPackage.ico</Icon>
+    <PreviewImage>Resources\VSPackage.ico</PreviewImage>
+    <Tags>solution build; configurations</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    <Dependency Id="Microsoft.VisualStudio.MPF.14.0" DisplayName="Visual Studio MPF 14.0" d:Source="Installed" Version="[14.0]" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+  </Assets>
+</PackageManifest>
